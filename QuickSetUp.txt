@@ -1,0 +1,69 @@
+
+Quick Setup (uses pipenv and pip-lock)
+
+#1. Install git and clone pipfile
+
+https://git-scm.com/download/win
+
+git clone WorkEnv
+
+#2. Install latest python 3
+
+https://www.python.org/downloads/
+
+3,4,5,6,7,8,9. Copy and paste this one line.
+
+python -m pip install --upgrade pip & pip install pipenv & pip install xlwings & pip install ipython & pip install numpy & pip install pandas
+
+Also sublime text3 (see below)
+
+#3. Upgrade pip package
+
+python -m pip install --upgrade pip
+
+#4. Install pipenv
+
+pip install pipenv
+
+#5a. Sync dependencies
+
+pipenv install --dev
+
+
+Slow Setup
+
+Quick Setup above except step 5a
+
+#5b. Install xlwings
+
+pip install xlwings
+
+#6. Install ipython
+
+pip install ipython
+
+#7. Install sublime text 3
+
+https://www.sublimetext.com/3
+
+----- BEGIN LICENSE -----
+Thomas James Libiano Francis
+Single User License
+EA7E-1170909
+9F2476E5 81248366 A950F45C 8402271B
+3819A786 E619A393 DC72950D C20D5625
+27D5633B CF28E93B 42490A1A 10E0D740
+6E51A544 17C891D9 B9879BD5 F026C41F
+6AAF4FC8 D102E96A 196A32F4 9B3F5B09
+86D6779B EAF6410E 50D34180 A00E5226
+260078F0 29B04483 088070DD 1DE9AC0D
+0DC05A46 A7405CAC 8B9E0572 12B9A60E
+------ END LICENSE ------
+
+#8. Install numpy
+
+pip install numpy
+
+#9. Install pandas
+
+pip install pandas
