@@ -13,8 +13,9 @@ https://www.python.org/downloads/
 
 #3. Copy and paste this one line.
 
-python -m pip install --upgrade pip & pip install pipenv & pip install xlwings & pip install ipython & pip install numpy & pip install pandas & pip install matplotlib
+python -m pip install --upgrade pip & pip install pipenv & pip install xlwings & pip install ipython & pip install numpy & pip install pandas & pip install matplotlib & xlwings addin install
 
+remember to go through File -> Options -> Trust-Center -> Add-ins -> Remove the check marks to clear xlwings for security
 --------------------------------------------------------------------------------------------------
 
 Also sublime text3 if you need it (see below)
